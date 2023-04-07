@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/home/tyler/code/conan-colcon-example/hello_conan_lib/test_package/build/gcc-11-x86_64-gnu17-release/generators/CMakePresets.json"
+        "/home/tyler/code/conan-colon-example/hello_conan_lib/test_package/build/gcc-11-x86_64-gnu17-release/generators/CMakePresets.json"
     ]
 }

@@ -22,6 +22,9 @@ class helloRecipe(ConanFile):
         if self.options.shared:
             self.options.rm_safe("fPIC")
 
+    def requirements(self):
+        self.requires("eigen/3.4.0", transitive_headers=True)
+
     def layout(self):
         cmake_layout(self)
 
@@ -42,5 +45,3 @@ class helloRecipe(ConanFile):
 
     def package_info(self):
         self.cpp_info.libs = ["hello"]
-
-    
